@@ -1,0 +1,207 @@
+<TableLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">
+
+<TableRow
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/TextView00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Calculadora"
+        android:layout_span="3"
+        android:padding="18dip"
+        android:background="#005555"
+        android:textColor="#000"/>
+</TableRow>
+
+
+<TableRow
+    android:id="@+id/tableRow1"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <Button
+        android:id="@+id/button00"
+        android:text="7"
+        android:layout_weight="1"
+        android:background="#0000FF"
+        android:textColor="#000000"
+        android:padding="20dip"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button01"
+        android:text="8"
+        android:layout_weight="1"
+        android:background="#0000CF"
+        android:textColor="#000000"
+        android:padding="20dip"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button02"
+        android:text="9"
+        android:layout_weight="1"
+        android:background="#0000AF"
+        android:textColor="#000000"
+        android:padding="20dip"
+        android:gravity="center"/>
+</TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/button03"
+            android:text="4"
+            android:layout_weight="1"
+            android:background="#0000FF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button04"
+            android:text="5"
+            android:layout_weight="1"
+            android:background="#0000CF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button05"
+            android:text="6"
+            android:layout_weight="1"
+            android:background="#0000AF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/button06"
+            android:text="1"
+            android:layout_weight="1"
+            android:background="#0000FF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button07"
+            android:text="2"
+            android:layout_weight="1"
+            android:background="#0000CF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button08"
+            android:text="3"
+            android:layout_weight="1"
+            android:background="#0000AF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/button09"
+            android:text="/"
+            android:layout_weight="1"
+            android:background="#0000FF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:text="0"
+            android:layout_weight="1"
+            android:background="#0000CF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button11"
+            android:text="="
+            android:layout_weight="1"
+            android:background="#0000AF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/button12"
+            android:text="*"
+            android:layout_weight="1"
+            android:background="#0000FF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button13"
+            android:text="-"
+            android:layout_weight="1"
+            android:background="#0000CF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button14"
+            android:text="+"
+            android:layout_weight="1"
+            android:background="#0000AF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <EditText
+            android:id="@+id/EditText01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Resultado"
+            android:layout_span="3"
+            android:padding="18dip"
+
+            android:textColor="#000"/>
+    </TableRow>
+
+</TableLayout>
